@@ -8,7 +8,7 @@ import Navbar from './components/Navbar';
 
 const App = () => {
   const location=useLocation();
-  const noNavbarRoutes=["/login", "/signup"]
+  const noNavbarRoutes=["/", "/signup"]
   return (
     <>
       <ToastContainer/>
